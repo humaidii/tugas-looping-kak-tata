@@ -20,3 +20,16 @@ for (let i = 0; i <= 20; i++) {
       console.log(i + " adalah bilangan ganjil");
     }
   }
+
+// POP - UP LOOP
+let jumlahKlikOk = 0;
+function tampilkanPopUp() {
+    let hasilKonfirmasi = confirm("Apakah anda mau mengulang?");
+    if (hasilKonfirmasi === true) {
+      jumlahKlikOk++;
+      tampilkanPopUp();
+    } else {
+      alert("Perulangan sudah dilakukan sebanyak " + jumlahKlikOk + " kali.");
+    }
+  }
+  tampilkanPopUp();
