@@ -34,7 +34,7 @@ function tampilkanPopUp() {
   }
   tampilkanPopUp();
 
-// QUIZ LOOP
+// QUIZ LOOP TASK 5
 let jawabanBenar = false;
 
 while (!jawabanBenar) {
