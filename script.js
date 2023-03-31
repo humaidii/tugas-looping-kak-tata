@@ -21,7 +21,7 @@ for (let i = 0; i <= 20; i++) {
     }
   }
 
-// POP - UP LOOP
+// POP - UP LOOP TASK 4
 let jumlahKlikOk = 0;
 function tampilkanPopUp() {
     let hasilKonfirmasi = confirm("Apakah anda mau mengulang?");
@@ -33,3 +33,16 @@ function tampilkanPopUp() {
     }
   }
   tampilkanPopUp();
+
+// QUIZ LOOP
+let jawabanBenar = false;
+
+while (!jawabanBenar) {
+  let jawaban = prompt("Sebutkan kepanjangan dari nama IB?");
+  if (jawaban.toUpperCase() === "IMPACT BYTE") {
+    alert("Selamat jawaban kamu benar!");
+    jawabanBenar = true;
+  } else {
+    alert("Jawaban kamu salah, coba lagi!");
+  }
+}
