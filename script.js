@@ -11,3 +11,12 @@ for (let i = 1; i <= 10; i++) {
   nilai += 2;
   console.log("Hasil penambahan ke-" + i + ": " + nilai);
 }
+
+// FOR LOOP TASK 3
+for (let i = 0; i <= 20; i++) {
+    if (i % 2 === 0) {
+      console.log(i + " adalah bilangan genap");
+    } else {
+      console.log(i + " adalah bilangan ganjil");
+    }
+  }
